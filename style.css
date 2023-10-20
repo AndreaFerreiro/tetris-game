@@ -1,11 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     display: flex;
     gap: 60px;
-    width: 100vw;
+    height: 100vh;
     justify-content: center;
+    margin-top: 60px;
+}
+.button{
+    width: 70px;
+    height: 40px;
 }
 div {
-    background-color: yellow;
+    background-color: lightgray;
     height: 30px;
     width: 30px;
 }
@@ -27,11 +36,11 @@ div {
     width: 80px;
 }
 .block {
-    background-color: blue;
+    background-color: yellow;
 }
 .block2 {
-    background-color: purple;
+    background-color: black;
 }
 .block3 {
-    background-color: green;
+    background-color: black;
 }
